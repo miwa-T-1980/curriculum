@@ -7,6 +7,16 @@
     .side {
         width: 100px;
     }
+
+    .content {
+        float: left;
+        width: 300px;
+    }
+    .content-top-left {
+        float: left;
+        width: 125px;
+    }
+    
     .content-top-left-top {
         width: 125px;
     }
