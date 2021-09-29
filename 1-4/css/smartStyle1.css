@@ -12,6 +12,11 @@
         float: left;
         width: 300px;
     }
+
+    .contet-top{
+        width: 200px;
+    }
+
     .content-top-left {
         float: left;
         width: 125px;
@@ -37,17 +42,54 @@
 }
 
 @media screen and (max-width: 479px) {
-
     .header {
         width: 150px;
+        height: 100px;
     }
-
+    .side {
+        float: none;
+        width: 150px;
+        height: 100px;
+    }
+    
     .content {
+        float: none;
+    }
+    
+
+    .content-top-left {
         float: none;
         width: 150px;
     }
-    .footer {
+    
+    .content-top-left-top {
+        float: none;
         width: 150px;
+        height: 50px;
+    }
+
+    .content-top-left-bottom {
+        float: none;
+        width: 150px;
+        height: 100px;
+    }
+
+    .content-top-right {
+        float: none;
+        width: 150px;
+        height: 100px;
+    }
+
+    .content-bottom {
+        float: none;
+        width: 150px;
+        height: 100px;
+    }
+
+    .footer {
+        float: none;
+        width: 150px;
+        height: 100px;
     }
 
 }
